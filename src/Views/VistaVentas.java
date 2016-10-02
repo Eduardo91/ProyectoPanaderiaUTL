@@ -48,7 +48,7 @@ public class VistaVentas extends javax.swing.JInternalFrame {
         setOpaque(false);
         getContentPane().setLayout(new java.awt.GridBagLayout());
 
-        jPanelFondo.setBackground(new java.awt.Color(238, 220, 208));
+        jPanelFondo.setBackground(new java.awt.Color(239, 239, 239));
         jPanelFondo.setLayout(null);
 
         jButtonCerrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botonCerrar.png"))); // NOI18N
@@ -67,9 +67,9 @@ public class VistaVentas extends javax.swing.JInternalFrame {
             }
         });
         jPanelFondo.add(jButtonCerrar);
-        jButtonCerrar.setBounds(10, 420, 53, 50);
+        jButtonCerrar.setBounds(10, 420, 60, 50);
 
-        jTextFieldCodigoBarras.setBackground(new java.awt.Color(51, 51, 51));
+        jTextFieldCodigoBarras.setBackground(new java.awt.Color(122, 50, 1));
         jTextFieldCodigoBarras.setFont(new java.awt.Font("Consolas", 1, 24)); // NOI18N
         jTextFieldCodigoBarras.setForeground(java.awt.Color.white);
         jTextFieldCodigoBarras.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -86,7 +86,7 @@ public class VistaVentas extends javax.swing.JInternalFrame {
         jPanelFondo.add(jTextFieldCodigoBarras);
         jTextFieldCodigoBarras.setBounds(100, 110, 210, 30);
 
-        jTextFieldCantidadProducto.setBackground(new java.awt.Color(51, 51, 51));
+        jTextFieldCantidadProducto.setBackground(new java.awt.Color(122, 50, 1));
         jTextFieldCantidadProducto.setFont(new java.awt.Font("Consolas", 1, 24)); // NOI18N
         jTextFieldCantidadProducto.setForeground(java.awt.Color.white);
         jTextFieldCantidadProducto.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -96,7 +96,7 @@ public class VistaVentas extends javax.swing.JInternalFrame {
         jPanelFondo.add(jTextFieldCantidadProducto);
         jTextFieldCantidadProducto.setBounds(100, 190, 210, 30);
 
-        jTextFieldPrecioProducto.setBackground(new java.awt.Color(51, 51, 51));
+        jTextFieldPrecioProducto.setBackground(new java.awt.Color(122, 50, 1));
         jTextFieldPrecioProducto.setFont(new java.awt.Font("Consolas", 1, 24)); // NOI18N
         jTextFieldPrecioProducto.setForeground(java.awt.Color.white);
         jTextFieldPrecioProducto.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -106,7 +106,7 @@ public class VistaVentas extends javax.swing.JInternalFrame {
         jPanelFondo.add(jTextFieldPrecioProducto);
         jTextFieldPrecioProducto.setBounds(100, 270, 210, 30);
 
-        jTextFieldSumaCantidadPorPrecio.setBackground(new java.awt.Color(51, 51, 51));
+        jTextFieldSumaCantidadPorPrecio.setBackground(new java.awt.Color(122, 50, 1));
         jTextFieldSumaCantidadPorPrecio.setFont(new java.awt.Font("Consolas", 1, 24)); // NOI18N
         jTextFieldSumaCantidadPorPrecio.setForeground(java.awt.Color.white);
         jTextFieldSumaCantidadPorPrecio.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -165,26 +165,26 @@ public class VistaVentas extends javax.swing.JInternalFrame {
         jTextFieldNombreProducto.setForeground(new java.awt.Color(0, 0, 0));
         jTextFieldNombreProducto.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jPanelFondo.add(jTextFieldNombreProducto);
-        jTextFieldNombreProducto.setBounds(620, 30, 210, 40);
+        jTextFieldNombreProducto.setBounds(630, 30, 200, 40);
 
         jTextFieldIdPan.setFont(new java.awt.Font("Consolas", 1, 24)); // NOI18N
         jTextFieldIdPan.setForeground(new java.awt.Color(0, 0, 0));
         jTextFieldIdPan.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jPanelFondo.add(jTextFieldIdPan);
-        jTextFieldIdPan.setBounds(440, 30, 60, 40);
+        jTextFieldIdPan.setBounds(450, 30, 50, 40);
 
         jLabelTotal.setBackground(new java.awt.Color(22, 21, 21));
         jLabelTotal.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
         jLabelTotal.setForeground(new java.awt.Color(0, 0, 0));
         jLabelTotal.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jPanelFondo.add(jLabelTotal);
-        jLabelTotal.setBounds(1200, 430, 130, 40);
+        jLabelTotal.setBounds(1190, 430, 150, 40);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/LABELtotal.png"))); // NOI18N
         jPanelFondo.add(jLabel2);
-        jLabel2.setBounds(1100, 420, 242, 60);
+        jLabel2.setBounds(1100, 420, 243, 60);
 
-        jTable.setBackground(new java.awt.Color(23, 23, 23));
+        jTable.setBackground(new java.awt.Color(125, 48, 9));
         jTable.setFont(new java.awt.Font("Consolas", 1, 24)); // NOI18N
         jTable.setForeground(new java.awt.Color(255, 255, 255));
         jTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -219,14 +219,14 @@ public class VistaVentas extends javax.swing.JInternalFrame {
         jLabelMensaje.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabelMensaje.setForeground(new java.awt.Color(255, 255, 255));
         jPanelFondo.add(jLabelMensaje);
-        jLabelMensaje.setBounds(920, 30, 350, 40);
+        jLabelMensaje.setBounds(910, 30, 430, 40);
 
         jLabelIdVenta.setBackground(new java.awt.Color(22, 21, 21));
         jLabelIdVenta.setFont(new java.awt.Font("Consolas", 1, 24)); // NOI18N
         jLabelIdVenta.setForeground(new java.awt.Color(0, 0, 0));
         jLabelIdVenta.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jPanelFondo.add(jLabelIdVenta);
-        jLabelIdVenta.setBounds(180, 30, 130, 40);
+        jLabelIdVenta.setBounds(150, 30, 160, 40);
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/iconLabelVentasId.png"))); // NOI18N
         jButton1.setBorder(null);
@@ -234,7 +234,7 @@ public class VistaVentas extends javax.swing.JInternalFrame {
         jButton1.setContentAreaFilled(false);
         jButton1.setRequestFocusEnabled(false);
         jPanelFondo.add(jButton1);
-        jButton1.setBounds(10, 100, 50, 47);
+        jButton1.setBounds(10, 100, 60, 47);
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/iconLabelVentasCantidad.png"))); // NOI18N
         jButton2.setBorder(null);
@@ -243,7 +243,7 @@ public class VistaVentas extends javax.swing.JInternalFrame {
         jButton2.setFocusPainted(false);
         jButton2.setRequestFocusEnabled(false);
         jPanelFondo.add(jButton2);
-        jButton2.setBounds(10, 180, 50, 47);
+        jButton2.setBounds(10, 180, 60, 47);
 
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/iconLabelVentasPrecio.png"))); // NOI18N
         jButton3.setBorder(null);
@@ -251,7 +251,7 @@ public class VistaVentas extends javax.swing.JInternalFrame {
         jButton3.setContentAreaFilled(false);
         jButton3.setFocusPainted(false);
         jPanelFondo.add(jButton3);
-        jButton3.setBounds(10, 260, 50, 47);
+        jButton3.setBounds(10, 260, 60, 47);
 
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/iconLabelVentasTotal.png"))); // NOI18N
         jButton4.setBorder(null);
@@ -261,19 +261,19 @@ public class VistaVentas extends javax.swing.JInternalFrame {
         jButton4.setFocusPainted(false);
         jButton4.setRequestFocusEnabled(false);
         jPanelFondo.add(jButton4);
-        jButton4.setBounds(10, 340, 50, 47);
+        jButton4.setBounds(10, 340, 60, 47);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/mensaje.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/mensaje2.png"))); // NOI18N
         jPanelFondo.add(jLabel1);
         jLabel1.setBounds(850, 26, 490, 50);
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/labelIDventas2.png"))); // NOI18N
         jPanelFondo.add(jLabel3);
-        jLabel3.setBounds(10, 20, 310, 60);
+        jLabel3.setBounds(10, 20, 311, 60);
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/labelidpanproducto.png"))); // NOI18N
         jPanelFondo.add(jLabel4);
-        jLabel4.setBounds(340, 20, 498, 60);
+        jLabel4.setBounds(340, 20, 499, 60);
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/labelCajas.png"))); // NOI18N
         jPanelFondo.add(jLabel5);
@@ -288,7 +288,7 @@ public class VistaVentas extends javax.swing.JInternalFrame {
         jPanelFondo.add(jLabel7);
         jLabel7.setBounds(90, 260, 230, 48);
 
-        jLabelImagen.setBackground(new java.awt.Color(51, 51, 51));
+        jLabelImagen.setBackground(new java.awt.Color(122, 50, 1));
         jLabelImagen.setOpaque(true);
         jPanelFondo.add(jLabelImagen);
         jLabelImagen.setBounds(350, 110, 260, 270);

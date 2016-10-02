@@ -42,12 +42,14 @@ public class VistaPrincipal extends javax.swing.JFrame {
         jLabelFecha = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jLabelUsuario = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jDesktopPane1.setBackground(new java.awt.Color(0, 0, 0));
+        jDesktopPane1.setOpaque(false);
 
-        jPanel1.setBackground(new java.awt.Color(150, 67, 12));
+        jPanel1.setBackground(new java.awt.Color(61, 23, 0));
         jPanel1.setLayout(new java.awt.GridBagLayout());
 
         jButtonPanes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/panes.png"))); // NOI18N
@@ -141,12 +143,13 @@ public class VistaPrincipal extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(10, 160, 0, 43);
         jPanel1.add(jButtonReporte, gridBagConstraints);
 
-        jLabelHora.setBackground(new java.awt.Color(150, 67, 12));
+        jLabelHora.setBackground(new java.awt.Color(61, 23, 0));
         jLabelHora.setFont(new java.awt.Font("Consolas", 1, 24)); // NOI18N
         jLabelHora.setForeground(new java.awt.Color(255, 251, 245));
+        jLabelHora.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabelHora.setOpaque(true);
 
-        jLabelFecha.setBackground(new java.awt.Color(150, 67, 12));
+        jLabelFecha.setBackground(new java.awt.Color(61, 23, 0));
         jLabelFecha.setFont(new java.awt.Font("Consolas", 1, 24)); // NOI18N
         jLabelFecha.setForeground(new java.awt.Color(255, 251, 245));
         jLabelFecha.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -165,6 +168,11 @@ public class VistaPrincipal extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(0, 0, 8, 3);
         jPanel2.add(jLabel1, gridBagConstraints);
 
+        jLabelUsuario.setBackground(new java.awt.Color(61, 23, 0));
+        jLabelUsuario.setFont(new java.awt.Font("Consolas", 1, 24)); // NOI18N
+        jLabelUsuario.setForeground(new java.awt.Color(255, 251, 245));
+        jLabelUsuario.setOpaque(true);
+
         javax.swing.GroupLayout jDesktopPane1Layout = new javax.swing.GroupLayout(jDesktopPane1);
         jDesktopPane1.setLayout(jDesktopPane1Layout);
         jDesktopPane1Layout.setHorizontalGroup(
@@ -175,7 +183,9 @@ public class VistaPrincipal extends javax.swing.JFrame {
                     .addGroup(jDesktopPane1Layout.createSequentialGroup()
                         .addComponent(jLabelFecha, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabelHora, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jLabelHora, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabelUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
@@ -190,12 +200,14 @@ public class VistaPrincipal extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jDesktopPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabelHora, javax.swing.GroupLayout.DEFAULT_SIZE, 46, Short.MAX_VALUE)
-                    .addComponent(jLabelFecha, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(jLabelFecha, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabelUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         jDesktopPane1.setLayer(jPanel1, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jDesktopPane1.setLayer(jLabelHora, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jDesktopPane1.setLayer(jLabelFecha, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jDesktopPane1.setLayer(jPanel2, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        jDesktopPane1.setLayer(jLabelUsuario, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -243,6 +255,7 @@ public class VistaPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     public javax.swing.JLabel jLabelFecha;
     public javax.swing.JLabel jLabelHora;
+    public javax.swing.JLabel jLabelUsuario;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables

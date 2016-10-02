@@ -48,7 +48,7 @@ public class ConexionMySQL {
         //Configuramos los datos de conexion:
         host = "127.0.0.1";
         puerto = 3306;
-        nombreBd = "Panaderiagil3";
+        nombreBd = "Panaderiagil5";
         usuario = "root";
         contrasenia = "";
         url = "jdbc:mysql://" + host + ":" + puerto + "/" + nombreBd;

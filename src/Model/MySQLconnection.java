@@ -1,5 +1,6 @@
 package Model;
 import java.sql.*;
+import Views.VistaLogin;
 
 public class MySQLconnection {
 
@@ -9,9 +10,8 @@ public class MySQLconnection {
     private static String ruta;
     private static String user;
     private static String pswd;
-
     public MySQLconnection() {
-        ruta = "jdbc:mysql://localhost:3306/panaderiagil3";
+        ruta = "jdbc:mysql://localhost:3306/panaderiagil5";
         user = "root";
         pswd = "";
     }
@@ -19,7 +19,9 @@ public class MySQLconnection {
         try {
             con = DriverManager.getConnection(ruta, user, pswd);
             st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
-            } catch (SQLException e) {System.out.println("Error de conexion"+e);}
+            } catch (SQLException e) {
+                System.out.println("Error de conexion"+e);
+            }
     }
 
     public void desconectar() {

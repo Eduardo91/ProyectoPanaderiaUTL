@@ -7,9 +7,8 @@ public class ComandosInventario {
         return "SELECT existencia FROM inventario WHERE idP='"+in.getIdP()+"';";
     }
     
-    public String getAll() {
-        String query = "select * from mostrar ";
-        return query;
+    public String mostrarTodosLosPanes() {
+        return "SELECT * FROM inventario;";
     }
 
     public String buscarPan(ClassInventario ci) {
@@ -21,5 +20,6 @@ public class ComandosInventario {
         String query = "select * from mostrar where nombre like '" +nombre+ "'";
         return query;
     }
+    
     
 }

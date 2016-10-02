@@ -9,8 +9,6 @@ import java.sql.Statement;
 import java.text.SimpleDateFormat;
 import javax.swing.Timer;
 
-
-
 public class ControllerPrincipal implements ActionListener
 {
     private VistaPrincipal  objVistPrincipal;
@@ -63,6 +61,7 @@ public class ControllerPrincipal implements ActionListener
     /*------------------------------------------------------------------------*/                
             if (e.getActionCommand().equals("Inventario")) {
     /*------------------------------------------------------------------------*/                
+                methodRefreshDatabase();
                 objVistaInventario=new VistaInventario();
                 objControllerInverntario=new ControllerInventario(objVistaInventario, objVistPrincipal, conexion);
                 objControllerInverntario.inicializaComponentesInventario();
